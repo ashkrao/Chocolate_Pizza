@@ -1,5 +1,5 @@
 body {
-   width:960px;
+   width:900px;
    margin:0 auto;
    padding-top:30px;
 }
@@ -20,10 +20,11 @@ body {
      margin: auto;
    }
    #border{
-     width:100%;
+     margin-left: -12px;
    }
    #right{
      text-align: right;
+     float: right;
    }
    #title{
      text-align:left;
@@ -39,16 +40,23 @@ body {
      margin-bottom:0;
      margin-top: 0;
    }
-
-#logo{
-  margin-top: : 200px;
-  margin-right: 10px;
-
+#logo span {
+  display: inline-block;
 }
+
+#logo p {
+  margin-top: -5px;
+}
+
 #delicious{
   font-family: 'Yellowtail', cursive;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
+  font-size: 36px;
+}
+#subtitle {
+  font-family: sans-serif;
+  margin: 0;
+  font-size: 10px;
 }
 #chocopizza {
   width:100%;
