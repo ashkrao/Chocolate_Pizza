@@ -27,10 +27,19 @@ body {
      float: right;
    }
    #title{
-     text-align:left;
-     margin-bottom: 10px;
-     float:left;
-     font-family: 'Domine', serif;
+     font-family: 'Oswald', sans-serif;
+   }
+   #name{
+     font-weight: 600;
+     font-size: 40px;
+   }
+   #details{
+     font-size: small;
+     font-weight: lighter;
+     color: lightgray;
+   }
+   #print{
+     text-align: right;
    }
    #foot_tag{
      text-align: center;
